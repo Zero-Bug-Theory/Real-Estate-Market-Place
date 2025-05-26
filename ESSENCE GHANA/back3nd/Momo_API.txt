@@ -1,0 +1,5 @@
+MTN momo Api Details:
+
+Primary Key: b8419c8f97d64beca471a2bb4aa261a8
+
+Secondary Key: 560ea919ff374f5b8cf9a28ef87a9cfe

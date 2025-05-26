@@ -1,0 +1,173 @@
+:root {
+    --Primary-color: #C3073F;
+    --Secondary-color: #C5C6C7;
+    --Tetiary-color: #1F2833;
+    --Primary-font: Poppins;
+    --Secondary-font: Bebas Neue;
+    --Tetiary-font: Rajdani;
+    --Extra-font: Jost;
+    --Extrastyle-font: Oleo Script;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nomineebackground{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/backg3.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: 100%;
+}
+.votenominee{
+    width: 60%;
+    margin-left: 30%;
+    text-align: left;
+    margin-top: -550px;
+    color: var(--Tetiary-color);
+}
+.nomineecontentwrap{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+    text-align: center;
+    margin-top: -0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #bae0c9;
+}
+.nominee{
+    width: 17%;
+    height: 380px;
+    background-color: whitesmoke;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid grey;
+    padding: 5px;
+}
+.nomineeart{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+}
+.nomineename{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px;
+    background-color: transparent;
+    color: var(--Tetiary-color);
+}
+input{
+    width: 45%;
+    padding: 5px;
+    margin: 2px;
+}
+input:nth-child(3){
+    width: 45%;
+    padding: 5px;
+    margin: 2px;
+    color: darkgreen;
+    text-align: center;
+}
+input:nth-child(5){
+    width: 80%;
+    padding: 10px;
+    margin: 7px 2px 0px 2px;
+    background-color: var(--Tetiary-color);
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+@media screen AND (max-width:500px) {
+    .nomineebackground{
+        width: 100%;
+        height: 100vh;
+        background-image: url("../images/backg3.jpg");
+        background-position: center;
+        background-size: cover;
+        opacity: 100%;
+    }
+    .votenominee{
+        width: 80%;
+        margin-left: 10%;
+        text-align: left;
+        margin-top: -610px;
+        color: var(--Tetiary-color);
+    }
+    .nomineecontentwrap{
+        width: 100%;
+        height: auto;
+        margin-left: 0%;
+        text-align: center;
+        margin-top: -0px;
+        display: block;
+        flex-wrap: wrap;
+        background-color: #bae0c9;
+    }
+    .nominee{
+        width: 80%;
+        height: 450px;
+        background-color: whitesmoke;
+        margin-left: 10%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border: 1px solid grey;
+        padding: 5px;
+    }
+    .nomineeart{
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        margin-bottom: 5px;
+    }
+    .nomineename{
+        font-weight: bold;
+        font-size: 20px;
+        padding: 5px;
+        background-color: transparent;
+        color: var(--Tetiary-color);
+    }
+    input{
+        width: 48%;
+        padding: 10px;
+        margin: 2px;
+    }
+    input:nth-child(3){
+        width: 45%;
+        padding: 10px;
+        margin: 2px;
+        color: darkgreen;
+        text-align: center;
+    }
+    input:nth-child(5){
+        width: 80%;
+        padding: 12px;
+        margin: 8px 2px 0 2px;
+        background-color: var(--Tetiary-color);
+        color: white;
+        text-align: center;
+    }
+}
